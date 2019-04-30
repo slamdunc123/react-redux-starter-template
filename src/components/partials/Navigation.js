@@ -42,7 +42,7 @@ class Navigation extends Component {
         return (
             <div>
                 <Navbar className="navbar navbar-expand-lg navbar-dark bg-dark" expand="md">
-                    <NavbarBrand href="/">React Template</NavbarBrand>
+                    <NavbarBrand href="/">React Redux Starter Template</NavbarBrand>
                     <NavbarToggler onClick={this.toggleBurgerMenu} />
                     <Collapse isOpen={this.state.isOpen} navbar>
                         <Nav className="ml-auto" navbar>
